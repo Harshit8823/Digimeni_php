@@ -1,0 +1,41 @@
+body { font-family: sans-serif; margin: 20px; }
+h1 { color: #333; }
+.cart-items { list-style: none; padding: 0; }
+.cart-items li { padding: 8px 0; border-bottom: 1px dashed #eee; }
+.total { font-weight: bold; margin-top: 15px; }
+.instructions { margin-top: 10px; }
+.form-container, .order-confirm { margin-top: 20px;}
+.form-container label, .form-container input { display: block; margin-bottom: 8px;}
+.form-container input, .form-container textarea { width: 300px; padding: 8px; box-sizing: border-box; }
+.form-container button, .back-button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.notification {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: none;
+    position: relative;
+}
+
+.notification .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

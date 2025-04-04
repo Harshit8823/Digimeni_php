@@ -1,0 +1,175 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+}
+
+.admin-dashboard {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.admin-dashboard button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.admin-container {
+    flex-grow: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.order-list {
+    list-style: none;
+    padding: 0;
+}
+
+
+.order-list li {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.order-list li strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.order-list li p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.order-list li ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.notification {
+    background-color: rgb(245, 29, 29);
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: none;
+}
+
+.notification.show {
+    display: block;
+}
+
+.complete-link {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.complete-link:hover {
+    background-color: #45a049;
+}
+
+.menu-form {
+    margin-bottom: 20px;
+}
+
+.menu-form input,
+.menu-form textarea,
+.menu-form select {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.menu-form button {
+    padding: 8px 15px;
+}
+
+#menuTable {
+    width: 100%;
+}
+
+#menuTable th,
+#menuTable td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#menuTable th {
+    background-color: #f2f2f2;
+}
+
+#menuTable_wrapper {
+    margin-top: 20px;
+}
+
+.success-notification {
+    background-color: #d4edda;
+    color: #1cd146;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: none;
+}
+
+.success-notification.show {
+    display: block;
+}
+
+.success-notification .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+.decline-link {
+    background-color: #e77a7a; /* Light red background */
+    color: #c65a5a; /* Moderate red text */
+    padding: 5px 10px; /* Add some padding for better appearance */
+    border: 1px solid #d32f2f; /* Optional: Add a border */
+    border-radius: 3px; /* Optional: Rounded corners */
+    text-decoration: none; /* Remove underline from link */
+}
+
+.decline-link:hover {
+    background-color: #ec1a1a; /* Slightly darker red on hover */
+}
